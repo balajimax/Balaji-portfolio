@@ -54,13 +54,13 @@
                     <h1>I'm Balaji.</h1>
                 </div>
                 <div class="name-dfn">
-                    <h6>I'm Focused On Front-End Development and<br> I Develop Responsive Web site,<br> Let's start scrolling and learn more about me. </h6>
+                    <h6>I'm Focused On Front-End Development and<br> I Develop Responsive Web-sites,<br> Let's start scrolling and learn more about me. </h6>
                     <hr/>
                 </div>
                 <div class="social-icon">
 
                     <a href="mailto: balajimax121098@gmail.com"><i class="icofont-envelope"></i></a>
-                    <a href="#"><i class="fa fa-github"></i></a>
+                    <a href="https://github.com/balajimax?tab=repositories"><i class="fa fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/balaji-ravi-a751131a1"><i class="icofont-linkedin"></i></a>
                     <a href="https://join.skype.com/invite/VoE0WN9MkDB9"><i class="icofont-skype"></i></a>
                 </div>
@@ -93,7 +93,7 @@
                                                 <li class="add-info">#266, MTC Nagar</li>
                                                 <li class="add-info">peramanur, Ford Opp</li>
                                                 <li class="add-info">Maraimalai Nagar</li>
-                                                <li class="add-info ">9092804522</li>
+                                                <li class="add-info">9092804522</li>
                                                 <li class="add-info">balajimax121098@gmail.com</li>
                                             </ul>
                                         </div>
@@ -162,13 +162,13 @@
                                     <div class="work-me">
                                         <h1>Fabevy Technology</h1>
                                         <h4>Feb2020 - present</h4>
-                                        <p>Over the last Five Month. I have Focused On MEAN stack Development training in Fabevy Technology. And Proficient in HTML, CSS, JAVASCRIPT, and Basics in Angular JS and React JS.</p>
+                                        <p>Over the last Five Month. I've Focused On MEAN stack Development training in Fabevy Technology. Proficient in HTML, CSS, Bootstrap and Javascript, and Basics in Angular JS and React JS.</p>
                                     </div>
                                     <div class="row">
                                         <div class="second-work">
                                             <h1>Tata Consultancy Service</h1>
                                             <h4>July2019 - Jan2020 </h4>
-                                            <p>I was Worked in Tata consultancy service as Process Associate, It's a Banking and Cards Domains and My roll is Payment Posting. </p>
+                                            <p>I had Worked in Tata consultancy service as Process Associate, It's a Banking and Cards Domains where I worked in Payment Posting. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -189,7 +189,7 @@
                                 </div>
                                 <div class="col-sm-8">
                                     <div class="skill-me">
-                                        <p>I have Focused On MEAN stack Development training in Fabevy Technology. And Proficient in HTML, CSS, JAVASCRIPT, and Basics in Angular JS and React JS.</p>
+                                        <p>I have Focused On MEAN stack Development training in Fabevy Technology. Proficient in HTML, CSS, Bootstrap and Javascript, and Basics in Angular JS and React JS.</p>
                                     </div>
                                     <div class="pro-bar">
                                         <h4>HTML</h4>
@@ -246,7 +246,7 @@
                                     <img class="img-responsive" ; src="./images/collection.jpg">
                                     <div class="description-box">
                                         <div>This guide explains collection pages, which has some sets of content, such as blog posts or products.</div>
-                                        <a target="blank" href=e-commerce-1/index.html><button class="readBtn btn">View</button></a>
+                                        <a target="blank" href=e-commerce/index.html><button class="readBtn btn">View</button></a>
                                     </div>
                                 </div>
                             </div>
@@ -367,7 +367,7 @@
                                     </div>
                                     <div class="fields">
                                         <label class="fields-message">Message <span class="mandatory">*</span></label>
-                                        <textarea id="message" cols="50" rows="15" name="comment" form="usrform">
+                                        <textarea id="message" cols="50" rows="15" name="comment">
                                             </textarea>
                                     </div>
                                     <div class="submit-form">
@@ -388,6 +388,7 @@
 
                             </div>
                         </div>
+
                     </div>
                 </div>
 
@@ -426,17 +427,17 @@
             var emailArea = document.getElementById("email").value;
             var subjectArea = document.getElementById("subject").value;
             var messageArea = document.getElementById("message").value;
-            console.log("values-->", nameArea, emailArea, subjectArea, messageArea);
+            console.log("values-->", nameArea, messageArea, emailArea, subjectArea, messageArea);
             if (nameArea != "" && emailArea != "" && messageArea != "") {
                 var submitteddata = [];
-                submitteddata.push(nameArea, emailArea, subjectArea, messageArea);
-                alert("Form submitted successfully!", submitteddata);
+                submitteddata.push(nameArea, emailArea, messageArea);
+                alert("Form submitted successfully!");
+                window.scrollTo(0, 0);
             } else {
-                alert("Please fill all the mandatory fiels!");
+                alert("Please fill all the mandatory fields.");
             }
 
-            console.log("values-->", nameArea, emailArea, subjectArea, messageArea);
-            window.scrollTo(0, 0);
+
         }
     </script>
 </body>
