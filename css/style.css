@@ -1,0 +1,573 @@
+#dashboard {
+    background-image: url('../images/header-background.jpg');
+    background-size: cover;
+}
+
+section {
+    background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+    background-attachment: fixed;
+    position: relative;
+    background-size: cover !important;
+    min-height: 200px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#testimonial {
+    background: transparent;
+}
+
+.menu-bar {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.menu-bar a {
+    color: white;
+    padding-right: 30px;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+}
+
+.menu-bar :hover {
+    color: #F06000
+}
+
+.front-nav a {
+    color: #fff!important;
+}
+
+.front-nav a:hover {
+    color: #3FC5BA!important;
+}
+
+.navbar-nav {
+    float: none!important;
+    text-align: center;
+}
+
+.navbar-nav li {
+    text-align: center;
+    float: none!important;
+    display: inline-block;
+}
+
+.name-head h1 {
+    font-size: 100px;
+    text-align: center;
+    padding-top: 60px;
+    color: whitesmoke;
+}
+
+.name-dfn h6 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 25px;
+    padding-top: 25px;
+    opacity: 90%;
+    font: 23px/1.9em 'librebaskerville-regular', serif;
+}
+
+.name-dfn {
+    padding: 0 355px;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+
+hr {
+    border-top: 1px solid #eeeeee36
+}
+
+.social-icon {
+    text-align: center;
+    font-size: 50px;
+}
+
+.social-icon a {
+    color: white;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.social-icon a :hover {
+    color: rgb(63, 197, 186);
+}
+
+.down-arrow {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 100px;
+}
+
+.down-arrow a {
+    color: white;
+    text-decoration: none;
+}
+
+.down-arrow a :hover {
+    color: rgb(63, 197, 186);
+}
+
+.about-me {
+    background: #2B2B2B;
+    padding-bottom: 100px;
+}
+
+.my-photo img {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+.my-photo {
+    padding: 75px 200px;
+}
+
+.about-me h1 {
+    padding-top: 58px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.about-me p {
+    color: rgb(107, 102, 102);
+    font-style: oblique;
+    font-size: 17px;
+}
+
+.con-info li {
+    color: rgb(107, 102, 102);
+    text-decoration: none;
+    font-size: 17px;
+    font-style: oblique;
+}
+
+.con-info ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.add-info {
+    padding-top: 8px;
+}
+
+.row {
+    margin: 0;
+}
+
+.my-photo img {
+    margin: 0 auto;
+    display: block;
+}
+
+.con-info {
+    margin-left: -19px;
+}
+
+.resume button {
+    margin-top: 150px;
+    background: #3FC5BA;
+    border-color: rgb(107, 102, 102);
+    padding-left: 30px;
+    border-radius: 30px;
+}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+    outline: none !important;
+}
+
+#resume {
+    background-color: white;
+}
+
+.resume i {
+    color: #fff;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.resume button h4 {
+    display: inline-block;
+    color: #fff;
+}
+
+.edu-info {
+    margin-top: 50px;
+}
+
+.edu-info h1 {
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+.edu-head h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #3FC5BA;
+    font-size: 25px;
+}
+
+.edu-me h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.work-info h1 {
+    padding-right: 10px;
+}
+
+.work-head h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #3FC5BA;
+    font-size: 25px;
+}
+
+.work-me h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+
+.work-me p {
+    font-family: 'Scope One', serif;
+    font-size: 20px;
+    color: rgb(107, 102, 102);
+}
+
+.edu-me p {
+    font-family: 'Scope One', serif;
+    font-size: 20px;
+    color: rgb(107, 102, 102);
+}
+
+.line-break hr {
+    background: rgb(194, 191, 191);
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.edu-me h4 {
+    font-style: oblique;
+}
+
+.work-me h4 {
+    font-style: oblique;
+}
+
+.second-work h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+
+.second-work p {
+    font-family: 'Scope One', serif;
+    font-size: 20px;
+    color: rgb(107, 102, 102);
+}
+
+.second-work h4 {
+    font-style: oblique;
+}
+
+.skill-me p {
+    font-family: 'Scope One', serif;
+    font-size: 20px;
+    color: rgb(107, 102, 102);
+}
+
+.skill-head h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #3FC5BA;
+    font-size: 25px;
+}
+
+.pro-bar h4 {
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.progress {
+    height: 30px;
+    border-radius: 25px;
+}
+
+#work {
+    background: #f1f0f0;
+    padding-bottom: 30px;
+    margin-top: -10px;
+}
+
+.my-works h5 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 25px 0px 15px 0px;
+    color: #888888;
+}
+
+.description-box {
+    background-color: #fff;
+    padding: 30px 10px;
+    text-align: center;
+}
+
+.description-box button {
+    text-align: center;
+    padding: 15px 40px;
+    margin: 30px 0px 0px;
+    background: #3FC5BA;
+    color: #fff;
+    border: navajowhite;
+    border-radius: 25px;
+}
+
+.readBtn a {
+    color: #fff;
+}
+
+.readBtn:hover {
+    color: #3FC5BA;
+    background: #fff;
+    border: 1px solid #3FC5BA;
+}
+
+blockquote {
+    border: none;
+    padding-bottom: 50px;
+    color: #fff;
+}
+
+blockquote p {
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-style: italic;
+}
+
+blockquote cite {
+    font-size: 16px;
+}
+
+.carousel-indicators {
+    bottom: 0!important;
+}
+
+.item {
+    padding: 40px 0px;
+}
+
+.quote::before {
+    font-family: 'FontAwesome';
+    content: "\f10d";
+    padding-right: 10px;
+    font-size: 72px;
+    line-height: 72px;
+    text-align: left;
+    float: left;
+    color: #fff;
+}
+
+#contact {
+    background-color: rgb(21, 22, 22);
+}
+
+.row.form-row {
+    margin-top: 50px;
+}
+
+.message-row {
+    padding-top: 25px;
+}
+
+.message-icon {
+    font-size: 100px;
+    color: white;
+}
+
+.message-icon :hover {
+    color: #3FC5BA;
+}
+
+.message-content {
+    padding-top: 30px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.fields label {
+    font: 15px/24px 'opensans-bold', sans-serif;
+    margin: 12px 0;
+    color: #EBEEEE;
+    padding-right: 30px;
+    width: 25%;
+    vertical-align: top;
+}
+
+.fields input {
+    padding: 18px 20px;
+    color: #eee;
+    background: #373233;
+    margin-bottom: 42px;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    line-height: 24px;
+    width: 65%;
+}
+
+.fields textarea {
+    padding: 18px 20px;
+    color: #eee;
+    background: #373233;
+    margin-bottom: 42px;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    line-height: 24px;
+    width: 65%;
+}
+
+.info-area {
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.info-area h4 {
+    color: #fff;
+    font-size: 25px;
+}
+
+.info-area p {
+    color: #636363;
+}
+
+.mandatory {
+    color: #3FC5BA;
+}
+
+.submit {
+    font: 16px/30px 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #3FC5BA;
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    height: auto;
+    display: inline-block;
+    border-radius: 28px;
+    margin-left: 26%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+}
+
+.submit:hover {
+    background-color: #3FC5BA;
+    color: #fff;
+}
+
+.footer-row {
+    background: rgb(35 35 35);
+    padding: 50px 0px;
+}
+
+.thankstext {
+    text-align: center;
+    color: #525252;
+    padding: 35px 0px 0px;
+    font-size: 18px;
+    letter-spacing: 1.1px;
+}
+
+.footer-row .social-icon a {
+    color: #525252;
+}
+
+.up-arrow {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+    background: rgb(35 35 35);
+}
+
+.up-arrow a {
+    color: white;
+    text-decoration: none;
+}
+
+.up-arrow a :hover {
+    color: rgb(63, 197, 186);
+}
+
+@media screen and (max-width:767px) {
+    .name-dfn {
+        padding: 0px 20px;
+    }
+    .social-icon {
+        font-size: 30px;
+    }
+    .my-photo {
+        padding: 0;
+    }
+    .resume {
+        padding-top: 10px;
+    }
+    .resume button {
+        margin-top: 26px;
+    }
+    .my-photo img {
+        margin-top: 40px;
+    }
+    .about-me h1 {
+        text-align: left;
+        font-size: 27px;
+    }
+    .padspace {
+        padding: 15px 0px;
+    }
+    .quote::before {
+        font-size: 36px;
+    }
+    blockquote {
+        padding: 0;
+    }
+    .carousel-indicators {
+        bottom: -10px!important;
+    }
+    label,
+    input,
+    textarea {
+        width: 100%!important;
+    }
+}
+
+@media (min-width:768px) and (max-width:1200px) {
+    .name-dfn {
+        padding: 0px 120px;
+    }
+    .padspace {
+        padding: 15px 10px;
+    }
+    .my-photo {
+        padding: 75px 20px;
+    }
+}
+
+* {
+    scroll-behavior: smooth !important;
+}
