@@ -264,7 +264,7 @@
                                     <img class="img-responsive" ; src="./images/home.png">
                                     <div class="description-box">
                                         <div>It's actually a startup page to access all your favorite websites and organize your to do list. It's simply the best home page.</div>
-                                        <a target="blank" href="home/index.html" readBtn btn ">View</button></a>
+                                        <a target="blank" href="home/index.html"><button class="readBtn btn">View</button></a>
                                     </div>
                                 </div>
                             </div>
@@ -427,9 +427,18 @@
             var emailArea = document.getElementById("email ").value;
             var subjectArea = document.getElementById("subject ").value;
             var messageArea = document.getElementById("message ").value;
-            console.log("values-->", nameArea, messageArea, emailArea, subjectArea, messageArea); if (nameArea != "" && emailArea != "" && messageArea != "") { var submitteddata = []; submitteddata.push(nameArea,
-                                        emailArea, messageArea); alert("Form submitted successfully!"); window.scrollTo(0, 0); } else { alert("Please fill all the mandatory fields."); } }
-                                        </script>
+            console.log("values-->", nameArea, messageArea, emailArea, subjectArea, messageArea);
+            if (nameArea != "" && emailArea != "" && messageArea != "") {
+                var submitteddata = [];
+                submitteddata.push(nameArea,
+                    emailArea, messageArea);
+                alert("Form submitted successfully!");
+                window.scrollTo(0, 0);
+            } else {
+                alert("Please fill all the mandatory fields.");
+            }
+        }
+    </script>
 </body>
 
 </html>
