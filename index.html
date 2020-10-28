@@ -428,7 +428,7 @@
             var subjectArea = document.getElementById("subject ").value;
             var messageArea = document.getElementById("message ").value;
             console.log("values-->", nameArea, messageArea, emailArea, subjectArea, messageArea);
-            if (nameArea != "" && emailArea != "" && messageArea != "") {
+            if (nameArea != "" && emailArea != "" && messageArea != "" && messageArea != "    ") {
                 var submitteddata = [];
                 submitteddata.push(nameArea,
                     emailArea, messageArea);
